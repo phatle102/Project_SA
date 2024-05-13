@@ -13,8 +13,8 @@ namespace StoreManagement.Controllers
         }
         public IActionResult Index()
         {
-
-            return View();
+            List<Product> products = _ctx.Products.ToList();
+            return View("Index", products);
         }
     }
 }
