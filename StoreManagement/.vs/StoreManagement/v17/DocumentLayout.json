@@ -1,12 +1,105 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\StoreManagement\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDCF635E-F2F7-4331-B57B-89FB18337520}|StoreManagement\\StoreManagement.csproj|e:\\hoa sen university\\it\\software architecture\\project_sa\\storemanagement\\storemanagement\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDCF635E-F2F7-4331-B57B-89FB18337520}|StoreManagement\\StoreManagement.csproj|solutionrelative:storemanagement\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\StoreManagement\\StoreManagement\\Models\\FruitableStoreContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StoreManagement\\Models\\FruitableStoreContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDCF635E-F2F7-4331-B57B-89FB18337520}|StoreManagement\\StoreManagement.csproj|e:\\hoa sen university\\it\\software architecture\\project_sa\\storemanagement\\storemanagement\\storemanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EDCF635E-F2F7-4331-B57B-89FB18337520}|StoreManagement\\StoreManagement.csproj|solutionrelative:storemanagement\\storemanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDCF635E-F2F7-4331-B57B-89FB18337520}|StoreManagement\\StoreManagement.csproj|e:\\hoa sen university\\it\\software architecture\\project_sa\\storemanagement\\storemanagement\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDCF635E-F2F7-4331-B57B-89FB18337520}|StoreManagement\\StoreManagement.csproj|solutionrelative:storemanagement\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDCF635E-F2F7-4331-B57B-89FB18337520}|StoreManagement\\StoreManagement.csproj|e:\\hoa sen university\\it\\software architecture\\project_sa\\storemanagement\\storemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EDCF635E-F2F7-4331-B57B-89FB18337520}|StoreManagement\\StoreManagement.csproj|solutionrelative:storemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\StoreManagement\\StoreManagement\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "StoreManagement\\Controllers\\StoreController.cs",
+              "ToolTip": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\StoreManagement\\StoreManagement\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "StoreManagement\\Controllers\\StoreController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T02:22:43.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FruitableStoreContext.cs",
+              "DocumentMoniker": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\StoreManagement\\StoreManagement\\Models\\FruitableStoreContext.cs",
+              "RelativeDocumentMoniker": "StoreManagement\\Models\\FruitableStoreContext.cs",
+              "ToolTip": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\StoreManagement\\StoreManagement\\Models\\FruitableStoreContext.cs",
+              "RelativeToolTip": "StoreManagement\\Models\\FruitableStoreContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T03:01:18.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StoreManagement",
+              "DocumentMoniker": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\StoreManagement\\StoreManagement\\StoreManagement.csproj",
+              "RelativeDocumentMoniker": "StoreManagement\\StoreManagement.csproj",
+              "ToolTip": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\StoreManagement\\StoreManagement\\StoreManagement.csproj",
+              "RelativeToolTip": "StoreManagement\\StoreManagement.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-13T02:56:09.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\StoreManagement\\StoreManagement\\Views\\Store\\Index.cshtml",
+              "RelativeDocumentMoniker": "StoreManagement\\Views\\Store\\Index.cshtml",
+              "ToolTip": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\StoreManagement\\StoreManagement\\Views\\Store\\Index.cshtml",
+              "RelativeToolTip": "StoreManagement\\Views\\Store\\Index.cshtml",
+              "ViewState": "AQIAAPgAAAAAAAAAAADwv/8AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T02:18:26.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\StoreManagement\\StoreManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StoreManagement\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\StoreManagement\\StoreManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StoreManagement\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADQAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T02:04:27.851Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

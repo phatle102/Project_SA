@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using StoreManagement.Models;
+
 namespace StoreManagement
 {
     public class Program
@@ -8,6 +11,12 @@ namespace StoreManagement
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            //Dependency Injection
+            builder.Services.AddDbContext<FruitableStoreContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("fruitable"));
+            });
 
             var app = builder.Build();
 
@@ -24,7 +33,7 @@ namespace StoreManagement
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Store}/{action=Index}/{id?}");
 
             app.Run();
         }
