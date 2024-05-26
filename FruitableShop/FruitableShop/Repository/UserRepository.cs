@@ -1,54 +1,66 @@
 ﻿using FruitableShop.Models;
+using Newtonsoft.Json;
+using System.Net.Http.Headers;
+using System.Text;
 
 namespace FruitableShop.Repository
 {
-    public class UserRepository : IUserRepository
+    public class UserRepository : IRepository<User>
     {
-        private FruitableStoreContext _ctx;
-        public UserRepository(FruitableStoreContext ctx)
+        Uri baseAdress = new Uri("http://localhost:5041/api");
+        private readonly HttpClient _client;
+        public UserRepository()
         {
-            _ctx = ctx;
+            _client = new HttpClient();
+            _client.BaseAddress = baseAdress;
+        }
+        public bool Create(User entity)
+        {
+            string data = JsonConvert.SerializeObject(entity);
+            StringContent content = new StringContent(data, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = _client.PostAsync("User/Post", content).Result;
+            return response.IsSuccessStatusCode;
         }
 
-        public bool Create(User user)
+        public bool Delete(int id)
         {
-            _ctx.Users.Add(user);
-            _ctx.SaveChanges();
-            return true;
-        }
-
-        public bool Delete(int userID)
-        {
-            User u = _ctx.Users.FirstOrDefault(x => x.Id == userID);
-            if (u != null)
-            {
-                _ctx.Users.Remove(u);
-                _ctx.SaveChanges();
-                return true;
-            }
-            return false;
+            HttpResponseMessage response = _client.DeleteAsync($"User/Delete/{id}").Result;
+            return response.IsSuccessStatusCode;
         }
 
         public User FindById(int id)
         {
-            return _ctx.Users.Where(x => x.Id == id).FirstOrDefault();
+            HttpResponseMessage response = _client.GetAsync($"User/Get/{id}").Result;
+            if (response.IsSuccessStatusCode)
+            {
+                string data = response.Content.ReadAsStringAsync().Result;
+                return JsonConvert.DeserializeObject<User>(data);
+            }
+            return null;
         }
 
         public List<User> GetAllUser()
         {
-            return _ctx.Users.ToList();
+            HttpResponseMessage response = _client.GetAsync(_client.BaseAddress + "/User/Get").Result;
+            if (response.IsSuccessStatusCode)
+            {
+                string data = response.Content.ReadAsStringAsync().Result;
+                return JsonConvert.DeserializeObject<List<User>>(data);
+            }
+            return new List<User>();
         }
 
-        public bool Update(User user)
+        public List<User> SearchByName(string keyword)
         {
-            User u = _ctx.Users.FirstOrDefault(x => x.Id == user.Id);
-            if (u != null)
-            {
-                _ctx.Entry(u).CurrentValues.SetValues(user);
-                _ctx.SaveChanges();
-                return true;
-            }
-            return false;
+            throw new NotImplementedException();
+        }
+
+        public bool Update(User entity)
+        {
+            string data = JsonConvert.SerializeObject(entity);
+            StringContent content = new StringContent(data, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = _client.PutAsync("User/Put", content).Result;
+            return response.IsSuccessStatusCode;
         }
     }
 }

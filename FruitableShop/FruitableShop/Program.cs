@@ -14,7 +14,8 @@ builder.Services.AddDbContext<FruitableStoreContext>(options =>
 });
 
 //DI
-builder.Services.AddTransient<IUserRepository, UserRepository>();
+builder.Services.AddTransient<IRepository<User>, UserRepository>();
+builder.Services.AddTransient<IRepository<Product>, ProductRepository>();
 
 var app = builder.Build();
 

@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "G:\\Projects\\Project_SA\\FruitableShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|g:\\projects\\project_sa\\fruitableshop\\fruitableshop\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|solutionrelative:fruitableshop\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|g:\\projects\\project_sa\\fruitableshop\\fruitableshop\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|solutionrelative:fruitableshop\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|g:\\projects\\project_sa\\fruitableshop\\fruitableshop\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|solutionrelative:fruitableshop\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|g:\\projects\\project_sa\\fruitableshop\\fruitableshop\\areas\\admin\\views\\user\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|solutionrelative:fruitableshop\\areas\\admin\\views\\user\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|g:\\projects\\project_sa\\fruitableshop\\fruitableshop\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|solutionrelative:fruitableshop\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|g:\\projects\\project_sa\\fruitableshop\\fruitableshop\\areas\\admin\\views\\user\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|solutionrelative:fruitableshop\\areas\\admin\\views\\user\\edituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|g:\\projects\\project_sa\\fruitableshop\\fruitableshop\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|solutionrelative:fruitableshop\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,60 +22,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "FruitableShop\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "FruitableShop\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AQIAADsAAAAAAAAAAIAwwFcAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-26T07:09:30.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DeleteUser.cshtml",
-              "DocumentMoniker": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Areas\\Admin\\Views\\User\\DeleteUser.cshtml",
-              "RelativeDocumentMoniker": "FruitableShop\\Areas\\Admin\\Views\\User\\DeleteUser.cshtml",
-              "ToolTip": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Areas\\Admin\\Views\\User\\DeleteUser.cshtml",
-              "RelativeToolTip": "FruitableShop\\Areas\\Admin\\Views\\User\\DeleteUser.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC4AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-26T07:02:14.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "FruitableShop\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "ToolTip": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "FruitableShop\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAC8AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-26T06:52:27.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EditUser.cshtml",
-              "DocumentMoniker": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Areas\\Admin\\Views\\User\\EditUser.cshtml",
-              "RelativeDocumentMoniker": "FruitableShop\\Areas\\Admin\\Views\\User\\EditUser.cshtml",
-              "ToolTip": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Areas\\Admin\\Views\\User\\EditUser.cshtml",
-              "RelativeToolTip": "FruitableShop\\Areas\\Admin\\Views\\User\\EditUser.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-26T06:51:02.218Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -116,9 +56,35 @@
               "RelativeDocumentMoniker": "FruitableShop\\Areas\\Admin\\Controllers\\UserController.cs",
               "ToolTip": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Areas\\Admin\\Controllers\\UserController.cs",
               "RelativeToolTip": "FruitableShop\\Areas\\Admin\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowCsAAAAqAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T05:10:11.275Z",
+              "WhenOpened": "2024-05-26T16:34:47.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "FruitableShop\\Repository\\UserRepository.cs",
+              "ToolTip": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "FruitableShop\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T16:16:15.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "FruitableShop\\Repository\\IRepository.cs",
+              "ToolTip": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Repository\\IRepository.cs",
+              "RelativeToolTip": "FruitableShop\\Repository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T16:05:16.708Z",
               "EditorCaption": ""
             }
           ]
