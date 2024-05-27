@@ -2,6 +2,7 @@
 {
     public interface IRepository<T> 
     {
+        // ========== Adapter Pattern ========== //
         List<T> GetAllUser();
         List<T> SearchByName(string keyword);
         bool Create(T entity);

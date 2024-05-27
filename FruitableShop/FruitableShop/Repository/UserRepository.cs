@@ -5,6 +5,7 @@ using System.Text;
 
 namespace FruitableShop.Repository
 {
+    // ========== Adapter Pattern ========== //
     public class UserRepository : IRepository<User>
     {
         Uri baseAdress = new Uri("http://localhost:5041/api");
@@ -18,19 +19,19 @@ namespace FruitableShop.Repository
         {
             string data = JsonConvert.SerializeObject(entity);
             StringContent content = new StringContent(data, Encoding.UTF8, "application/json");
-            HttpResponseMessage response = _client.PostAsync("User/Post", content).Result;
+            HttpResponseMessage response = _client.PostAsync(_client.BaseAddress + "/User/Post", content).Result;
             return response.IsSuccessStatusCode;
         }
 
         public bool Delete(int id)
         {
-            HttpResponseMessage response = _client.DeleteAsync($"User/Delete/{id}").Result;
+            HttpResponseMessage response = _client.DeleteAsync(_client.BaseAddress + $"/User/Delete/{id}").Result;
             return response.IsSuccessStatusCode;
         }
 
         public User FindById(int id)
         {
-            HttpResponseMessage response = _client.GetAsync($"User/Get/{id}").Result;
+            HttpResponseMessage response = _client.GetAsync(_client.BaseAddress + $"/User/Get/{id}").Result;
             if (response.IsSuccessStatusCode)
             {
                 string data = response.Content.ReadAsStringAsync().Result;
@@ -59,7 +60,7 @@ namespace FruitableShop.Repository
         {
             string data = JsonConvert.SerializeObject(entity);
             StringContent content = new StringContent(data, Encoding.UTF8, "application/json");
-            HttpResponseMessage response = _client.PutAsync("User/Put", content).Result;
+            HttpResponseMessage response = _client.PutAsync(_client.BaseAddress + "/User/Put", content).Result;
             return response.IsSuccessStatusCode;
         }
     }

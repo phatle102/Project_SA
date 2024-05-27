@@ -4,6 +4,7 @@ using System.Text;
 
 namespace FruitableShop.Repository
 {
+    // ========== Adapter Pattern ========== //
     public class ProductRepository : IRepository<Product>
     {
         Uri baseAdress = new Uri("http://localhost:5041/api");
