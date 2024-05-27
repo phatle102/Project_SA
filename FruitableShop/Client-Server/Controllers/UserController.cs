@@ -125,29 +125,17 @@ namespace Client_Server.Controllers
             }
         }
 
-        [HttpPost]
-        public IActionResult Login([FromBody] LoginRequest loginRequest)
+        [HttpGet]
+        public IActionResult GetUser(string email, string password)
         {
-            try
+            var user = _ctx.Users.FirstOrDefault(u => u.Email == email && u.Password == password);
+            if (user != null)
             {
-                // Tìm người dùng trong cơ sở dữ liệu dựa trên tên đăng nhập
-                var user = _ctx.Users.FirstOrDefault(u => u.Email == loginRequest.Email);
-
-                // Kiểm tra xem người dùng có tồn tại và mật khẩu khớp không
-                if (user != null && user.Password == loginRequest.Password)
-                {
-                    // Đăng nhập thành công, trả về mã token hoặc thông tin người dùng tùy thuộc vào yêu cầu của bạn
-                    return Ok(new { message = "Đăng nhập thành công", user = user });
-                }
-                else
-                {
-                    // Đăng nhập thất bại, trả về mã lỗi hoặc thông báo lỗi
-                    return BadRequest(new { message = "Tên người dùng hoặc mật khẩu không chính xác" });
-                }
+                return Ok(user);
             }
-            catch (Exception ex)
+            else
             {
-                return BadRequest(new { message = ex.Message });
+                return NotFound("User not found with provided email and password.");
             }
         }
     }

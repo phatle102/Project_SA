@@ -34,7 +34,7 @@ app.MapAreaControllerRoute(
     name: "default",
     areaName: "Admin",
     pattern: "Admin/{controller}/{action}/{id?}",
-    defaults: new { controller = "User", action = "Index" }
+    defaults: new { controller = "Account", action = "Login" }
     );
 
 

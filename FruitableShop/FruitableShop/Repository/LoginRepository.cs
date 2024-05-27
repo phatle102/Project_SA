@@ -4,13 +4,15 @@ namespace FruitableShop.Repository
 {
     public class LoginRepository
     {
+        Uri baseAdress = new Uri("http://localhost:5041/api");
+        private readonly HttpClient _client;
+
         private static LoginRepository instance;
-        private HttpClient client;
 
         private LoginRepository()
         {
-            var baseAddress = new Uri("http://localhost:5041/api");
-            client = new HttpClient { BaseAddress = baseAddress };
+            _client = new HttpClient();
+            _client.BaseAddress = baseAdress;
         }
 
         public static LoginRepository Instance
@@ -24,20 +26,36 @@ namespace FruitableShop.Repository
                 return instance;
             }
         }
-        public async Task<bool> Login(string username, string password)
+        public async Task<bool> Login(string email, string password)
         {
-            // Gửi yêu cầu đăng nhập đến API
-            var response = await client.GetAsync($"/users?username={username}&password={password}");
+            try
+            {
+                // Gửi yêu cầu GET đến API để kiểm tra xem username và password có hợp lệ không
+                HttpResponseMessage response = await _client.GetAsync(_client.BaseAddress + $"/User/GetUser?email={email}&password={password}");
 
-            // Xác định xem đăng nhập thành công hay không
-            if (response.IsSuccessStatusCode)
-            {
-                return true;
+                // Kiểm tra xem yêu cầu đã thành công và có dữ liệu trả về không
+                if (response.IsSuccessStatusCode)
+                {
+                    // Đọc dữ liệu từ phản hồi (response)
+                    var responseData = await response.Content.ReadAsStringAsync();
+
+                    // Xác định xem thông tin đăng nhập có hợp lệ hay không dựa trên dữ liệu trả về
+                    /*if (responseData == "valid")
+                    {
+                        // Thông tin đăng nhập hợp lệ
+                        
+                    }*/
+                    return true;
+                }
             }
-            else
+            catch (Exception ex)
             {
-                return false;
+                // Xử lý lỗi khi gửi yêu cầu
+                Console.WriteLine("Error: " + ex.Message);
             }
+
+            // Trả về false nếu thông tin đăng nhập không hợp lệ hoặc có lỗi xảy ra
+            return false;
         }
     }
 }

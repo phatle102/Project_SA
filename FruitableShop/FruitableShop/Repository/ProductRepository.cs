@@ -17,19 +17,19 @@ namespace FruitableShop.Repository
         {
             string data = JsonConvert.SerializeObject(entity);
             StringContent content = new StringContent(data, Encoding.UTF8, "application/json");
-            HttpResponseMessage response = _client.PostAsync("Product/Post", content).Result;
+            HttpResponseMessage response = _client.PostAsync(_client.BaseAddress+"Product/Post", content).Result;
             return response.IsSuccessStatusCode;
         }
 
         public bool Delete(int id)
         {
-            HttpResponseMessage response = _client.DeleteAsync($"Product/Delete/{id}").Result;
+            HttpResponseMessage response = _client.DeleteAsync(_client.BaseAddress+"Product/Delete/{id}").Result;
             return response.IsSuccessStatusCode;
         }
 
         public Product FindById(int id)
         {
-            HttpResponseMessage response = _client.GetAsync($"Product/Get/{id}").Result;
+            HttpResponseMessage response = _client.GetAsync(_client.BaseAddress+"Product/Get/{id}").Result;
             if (response.IsSuccessStatusCode)
             {
                 string data = response.Content.ReadAsStringAsync().Result;
@@ -40,7 +40,7 @@ namespace FruitableShop.Repository
 
         public List<Product> GetAllUser()
         {
-            HttpResponseMessage response = _client.GetAsync("Product/Get").Result;
+            HttpResponseMessage response = _client.GetAsync(_client.BaseAddress+"/Product/Get").Result;
             if (response.IsSuccessStatusCode)
             {
                 string data = response.Content.ReadAsStringAsync().Result;
@@ -58,7 +58,7 @@ namespace FruitableShop.Repository
         {
             string data = JsonConvert.SerializeObject(entity);
             StringContent content = new StringContent(data, Encoding.UTF8, "application/json");
-            HttpResponseMessage response = _client.PutAsync("Product/Put", content).Result;
+            HttpResponseMessage response = _client.PutAsync(_client.BaseAddress + "Product/Put", content).Result;
             return response.IsSuccessStatusCode;
         }
     }
