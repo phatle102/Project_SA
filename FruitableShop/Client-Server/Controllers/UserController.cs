@@ -1,4 +1,5 @@
 ﻿using Client_Server.Models;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Client_Server.Controllers
@@ -121,6 +122,32 @@ namespace Client_Server.Controllers
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Login([FromBody] LoginRequest loginRequest)
+        {
+            try
+            {
+                // Tìm người dùng trong cơ sở dữ liệu dựa trên tên đăng nhập
+                var user = _ctx.Users.FirstOrDefault(u => u.Email == loginRequest.Email);
+
+                // Kiểm tra xem người dùng có tồn tại và mật khẩu khớp không
+                if (user != null && user.Password == loginRequest.Password)
+                {
+                    // Đăng nhập thành công, trả về mã token hoặc thông tin người dùng tùy thuộc vào yêu cầu của bạn
+                    return Ok(new { message = "Đăng nhập thành công", user = user });
+                }
+                else
+                {
+                    // Đăng nhập thất bại, trả về mã lỗi hoặc thông báo lỗi
+                    return BadRequest(new { message = "Tên người dùng hoặc mật khẩu không chính xác" });
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
             }
         }
     }

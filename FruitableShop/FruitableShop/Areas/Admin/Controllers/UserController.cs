@@ -2,6 +2,7 @@
 using FruitableShop.Repository;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using NuGet.Protocol.Core.Types;
 
 namespace FruitableShop.Areas.Admin.Controllers
 {
@@ -76,6 +77,33 @@ namespace FruitableShop.Areas.Admin.Controllers
                 return RedirectToAction("Index");
             }
             return View();
+        }
+        [HttpGet]
+        public IActionResult Detail(int id)
+        {
+            // ========== sử dụng singleton ========== //
+            UserDetailRepository User1 = UserDetailRepository.GetInstance();
+            UserDetailRepository User2 = UserDetailRepository.GetInstance();
+            UserDetailRepository User3 = UserDetailRepository.GetInstance();
+
+            // Lấy các đối tượng user từ repository
+            User1.objName = "User 1";
+            User2.objName = "User 2";
+            User3.objName = "User 3";
+
+            User1.showInformation("Object 1");
+            User2.showInformation("Object 2");
+            User3.showInformation("Object 3");
+
+
+            User user = User1.FindById(id);
+
+            if (user != null)
+            {
+                return View(user);
+            }
+
+            return NotFound();
         }
     }
 }

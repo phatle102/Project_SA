@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Projects\\Project_SA\\FruitableShop\\Client-Server\\Client-Server.csproj": {}
+    "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\Client-Server\\Client-Server.csproj": {}
   },
   "projects": {
-    "G:\\Projects\\Project_SA\\FruitableShop\\Client-Server\\Client-Server.csproj": {
+    "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\Client-Server\\Client-Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Projects\\Project_SA\\FruitableShop\\Client-Server\\Client-Server.csproj",
+        "projectUniqueName": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\Client-Server\\Client-Server.csproj",
         "projectName": "Client-Server",
-        "projectPath": "G:\\Projects\\Project_SA\\FruitableShop\\Client-Server\\Client-Server.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "G:\\Projects\\Project_SA\\FruitableShop\\Client-Server\\obj\\",
+        "projectPath": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\Client-Server\\Client-Server.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\Client-Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

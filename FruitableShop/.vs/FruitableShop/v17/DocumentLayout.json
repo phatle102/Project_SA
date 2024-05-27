@@ -1,18 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\Projects\\Project_SA\\FruitableShop\\",
+  "WorkspaceRootPath": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|g:\\projects\\project_sa\\fruitableshop\\fruitableshop\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|solutionrelative:fruitableshop\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3382BAA-C7F1-46F4-8FED-4EC5CC048D7A}|Client-Server\\Client-Server.csproj|e:\\hoa sen university\\it\\software architecture\\project_sa\\fruitableshop\\client-server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3382BAA-C7F1-46F4-8FED-4EC5CC048D7A}|Client-Server\\Client-Server.csproj|solutionrelative:client-server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|g:\\projects\\project_sa\\fruitableshop\\fruitableshop\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|e:\\hoa sen university\\it\\software architecture\\project_sa\\fruitableshop\\fruitableshop\\repository\\userdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|solutionrelative:fruitableshop\\repository\\userdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|e:\\hoa sen university\\it\\software architecture\\project_sa\\fruitableshop\\fruitableshop\\repository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|solutionrelative:fruitableshop\\repository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|e:\\hoa sen university\\it\\software architecture\\project_sa\\fruitableshop\\fruitableshop\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|solutionrelative:fruitableshop\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|g:\\projects\\project_sa\\fruitableshop\\fruitableshop\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|solutionrelative:fruitableshop\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|e:\\hoa sen university\\it\\software architecture\\project_sa\\fruitableshop\\fruitableshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|solutionrelative:fruitableshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|e:\\hoa sen university\\it\\software architecture\\project_sa\\fruitableshop\\fruitableshop\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|solutionrelative:fruitableshop\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|e:\\hoa sen university\\it\\software architecture\\project_sa\\fruitableshop\\fruitableshop\\areas\\admin\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4F2EA62-AF8B-46A5-91C7-AF11888B3F6B}|FruitableShop\\FruitableShop.csproj|solutionrelative:fruitableshop\\areas\\admin\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\Client-Server\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Client-Server\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\Client-Server\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Client-Server\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAhwIsAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T04:19:04.092Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -50,41 +79,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Areas\\Admin\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "FruitableShop\\Areas\\Admin\\Controllers\\UserController.cs",
-              "ToolTip": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Areas\\Admin\\Controllers\\UserController.cs",
-              "RelativeToolTip": "FruitableShop\\Areas\\Admin\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T16:34:47.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "FruitableShop\\Repository\\UserRepository.cs",
-              "ToolTip": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "FruitableShop\\Repository\\UserRepository.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowCoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T16:16:15.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "FruitableShop\\Repository\\IRepository.cs",
-              "ToolTip": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\Repository\\IRepository.cs",
-              "RelativeToolTip": "FruitableShop\\Repository\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Title": "LoginRepository.cs",
+              "DocumentMoniker": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\FruitableShop\\Repository\\LoginRepository.cs",
+              "RelativeDocumentMoniker": "FruitableShop\\Repository\\LoginRepository.cs",
+              "ToolTip": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\FruitableShop\\Repository\\LoginRepository.cs",
+              "RelativeToolTip": "FruitableShop\\Repository\\LoginRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAwB0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T16:05:16.708Z",
+              "WhenOpened": "2024-05-27T04:17:12.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\FruitableShop\\Areas\\Admin\\Views\\User\\Detail.cshtml",
+              "RelativeDocumentMoniker": "FruitableShop\\Areas\\Admin\\Views\\User\\Detail.cshtml",
+              "ToolTip": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\FruitableShop\\Areas\\Admin\\Views\\User\\Detail.cshtml",
+              "RelativeToolTip": "FruitableShop\\Areas\\Admin\\Views\\User\\Detail.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T02:48:05.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\FruitableShop\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "FruitableShop\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\FruitableShop\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "FruitableShop\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAwDYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T02:40:12.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\FruitableShop\\Program.cs",
+              "RelativeDocumentMoniker": "FruitableShop\\Program.cs",
+              "ToolTip": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\FruitableShop\\Program.cs",
+              "RelativeToolTip": "FruitableShop\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T02:26:04.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\FruitableShop\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FruitableShop\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\FruitableShop\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FruitableShop\\Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAA0wFIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T02:14:33.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDetailRepository.cs",
+              "DocumentMoniker": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\FruitableShop\\Repository\\UserDetailRepository.cs",
+              "RelativeDocumentMoniker": "FruitableShop\\Repository\\UserDetailRepository.cs",
+              "ToolTip": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\FruitableShop\\Repository\\UserDetailRepository.cs",
+              "RelativeToolTip": "FruitableShop\\Repository\\UserDetailRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T02:33:52.002Z",
               "EditorCaption": ""
             }
           ]

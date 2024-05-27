@@ -7839,19 +7839,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\FruitableShop.csproj",
+      "projectUniqueName": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\FruitableShop\\FruitableShop.csproj",
       "projectName": "FruitableShop",
-      "projectPath": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\FruitableShop.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "G:\\Projects\\Project_SA\\FruitableShop\\FruitableShop\\obj\\",
+      "projectPath": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\FruitableShop\\FruitableShop.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "E:\\Hoa Sen University\\IT\\Software Architecture\\Project_SA\\FruitableShop\\FruitableShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

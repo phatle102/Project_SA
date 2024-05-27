@@ -16,6 +16,4 @@ public partial class User
     public string? Phone { get; set; }
 
     public string? Password { get; set; }
-
-    public string? SessionToken { get; set; }
 }
