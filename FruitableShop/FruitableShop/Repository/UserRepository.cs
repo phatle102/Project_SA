@@ -40,7 +40,7 @@ namespace FruitableShop.Repository
             return null;
         }
 
-        public List<User> GetAllUser()
+        public List<User> GetAll()
         {
             HttpResponseMessage response = _client.GetAsync(_client.BaseAddress + "/User/Get").Result;
             if (response.IsSuccessStatusCode)

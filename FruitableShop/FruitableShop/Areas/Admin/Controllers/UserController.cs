@@ -20,7 +20,7 @@ namespace FruitableShop.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            List<User> users = _userRepository.GetAllUser();
+            List<User> users = _userRepository.GetAll();
             return View(users);
         }
         [HttpGet]
