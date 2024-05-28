@@ -10,9 +10,11 @@ namespace FruitableShop.Areas.Admin.Controllers
     public class UserController : Controller
     {
         private IRepository<User> _userRepository;
-        public UserController(IRepository<User> userRepository)
+        private UserDetailFactory _userDetailFactory;
+        public UserController(IRepository<User> userRepository, UserDetailFactory userDetailFactory)
         {
             _userRepository = userRepository;
+            _userDetailFactory = userDetailFactory;
         }
 
         [HttpGet]
@@ -82,21 +84,20 @@ namespace FruitableShop.Areas.Admin.Controllers
         public IActionResult Detail(int id)
         {
             // ========== sử dụng singleton ========== //
-            UserDetailRepository User1 = UserDetailRepository.GetInstance();
-            UserDetailRepository User2 = UserDetailRepository.GetInstance();
-            UserDetailRepository User3 = UserDetailRepository.GetInstance();
+            var userDetailRepo1 = _userDetailFactory.CreateUserDetailRepository();
+            var userDetailRepo2 = _userDetailFactory.CreateUserDetailRepository();
+            var userDetailRepo3 = _userDetailFactory.CreateUserDetailRepository();
 
-            // Lấy các đối tượng user từ repository
-            User1.objName = "User 1";
-            User2.objName = "User 2";
-            User3.objName = "User 3";
+            // Thiết lập thông tin đối tượng
+            userDetailRepo1.ObjName = "User 1";
+            userDetailRepo2.ObjName = "User 2";
+            userDetailRepo3.ObjName = "User 3";
 
-            User1.showInformation("Object 1");
-            User2.showInformation("Object 2");
-            User3.showInformation("Object 3");
+            userDetailRepo1.ShowInformation("Object 1");
+            userDetailRepo2.ShowInformation("Object 2");
+            userDetailRepo3.ShowInformation("Object 3");
 
-
-            User user = User1.FindById(id);
+            User user = userDetailRepo1.FindById(id);
 
             if (user != null)
             {
