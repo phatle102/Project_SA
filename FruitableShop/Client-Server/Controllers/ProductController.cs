@@ -122,5 +122,25 @@ namespace Client_Server.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet]
+        public IActionResult SearchByName(string keyword)
+        {
+            try
+            {
+                var result = _ctx.Products.Where(x=>x.Name.Contains(keyword)).ToList();
+                if (result == null)
+                {
+                    return NotFound($"Cant not found product with name {keyword}");
+                } 
+                return Ok(result);
+            } 
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        
     }
 }
