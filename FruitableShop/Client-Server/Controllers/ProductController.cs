@@ -141,6 +141,20 @@ namespace Client_Server.Controllers
             }
         }
 
-        
+        [HttpGet]
+        public IActionResult GetTop3ExpensiveProduct()
+        {
+            try
+            {
+                var topBestSaler = _ctx.Products.OrderByDescending(p => p.Price).Take(3).ToList();
+                if (topBestSaler.Count == 0) return NotFound("Can not get top 3 expensive product");
+                else return Ok(topBestSaler);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+        }
     }
 }
