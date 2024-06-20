@@ -52,7 +52,13 @@ namespace FruitableShop.Repository
 
         public List<Product> SearchByName(string keyword)
         {
-            throw new NotImplementedException();
+            HttpResponseMessage response = _client.GetAsync(_client.BaseAddress + $"/Product/SearchByName?keyword={keyword}").Result;
+            if (response.IsSuccessStatusCode)
+            {
+                string data = response.Content.ReadAsStringAsync().Result;
+                return JsonConvert.DeserializeObject<List<Product>>(data);
+            }
+            return new List<Product>();
         }
 
         public bool Update(Product entity)

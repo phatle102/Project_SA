@@ -16,8 +16,10 @@ builder.Services.AddDbContext<FruitableStoreContext>(options =>
 //DI
 builder.Services.AddSingleton<IRepository<User>, UserRepository>();
 builder.Services.AddTransient<IRepository<Product>, ProductRepository>();
+builder.Services.AddSingleton<IRepository<Product>, ProductRepository>();
 builder.Services.AddSingleton<UserDetailFactory, ConcreteUserDetailFactory>();
 builder.Services.AddScoped<IUserDetailRepository, UserDetailRepository>();
+builder.Services.AddSingleton<ProductFacade>();
 
 var app = builder.Build();
 

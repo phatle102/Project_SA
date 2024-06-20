@@ -8,9 +8,17 @@ namespace FruitableShop.Areas.Admin.Controllers
     public class ProductController : Controller
     {
         private IRepository<Product> _productRepository;
-        public ProductController(IRepository<Product> productRepository)
+        private readonly ProductFacade _productFacade;
+        private readonly SearchInvoker _searchInvoker;
+
+        public ProductController(
+            IRepository<Product> productRepository, 
+            ProductFacade productFacade)
         {
             _productRepository = productRepository;
+            _productFacade = productFacade;
+            _searchInvoker = new SearchInvoker();
+            _searchInvoker.RegisterCommand("SearchByName", new SearchProductByNameCommand(_productRepository));
         }
         public IActionResult Index()
         {
@@ -21,8 +29,9 @@ namespace FruitableShop.Areas.Admin.Controllers
         [HttpGet]
         public ActionResult SearchProduct(string keyword)
         {
-            List<Product> productList = _productRepository.SearchByName(keyword);
-            return View(productList);
+            /*List<Product> productList = _productSearchFacade.SearchProducts(keyword);*/
+            List<Product> productList = _searchInvoker.ExecuteCommand("SearchByName", keyword);
+            return View("Index", productList);
         }
 
         [HttpGet]
@@ -73,6 +82,16 @@ namespace FruitableShop.Areas.Admin.Controllers
             if (_productRepository.Delete(product.Id))
             {
                 return RedirectToAction("Index");
+            }
+            return View();
+        }
+        [HttpGet]
+        public IActionResult Details(int id)
+        {
+            Product product = _productFacade.Detail(id);
+            if (product != null)
+            {
+                return View(product);
             }
             return View();
         }
