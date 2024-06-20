@@ -2,6 +2,7 @@
 
 namespace FruitableShop.Repository
 {
+    // ========== Singleton ========== //
     public class LoginRepository
     {
         Uri baseAdress = new Uri("http://localhost:5041/api");

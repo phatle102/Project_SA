@@ -2,6 +2,7 @@
 
 namespace FruitableShop.Repository
 {
+    // ========== Factory ========== //
     public interface IUserDetailRepository
     {
         string ObjName { get; set; }

@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace FruitableShop.Repository
 {
-
+    // ========== Factory ========== //
     public class UserDetailRepository : IUserDetailRepository
     {
         public string ObjName { get; set; }
