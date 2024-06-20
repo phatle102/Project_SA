@@ -17,5 +17,14 @@ namespace FruitableShop.Areas.Admin.Controllers
             List<Product> product = _productRepository.GetAll();
             return View(product);
         }
+
+        [HttpGet]
+        public ActionResult SearchProduct(string keyword)
+        {
+            List<Product> productList = _productRepository.SearchByName(keyword);
+            return View(productList);
+        }
+
+
     }
 }
