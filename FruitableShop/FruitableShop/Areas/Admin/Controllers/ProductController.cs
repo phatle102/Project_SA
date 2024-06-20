@@ -25,6 +25,20 @@ namespace FruitableShop.Areas.Admin.Controllers
             return View(productList);
         }
 
+        [HttpGet]
+        public IActionResult AddProduct()
+        {
+            return View();
+        }
 
+        [HttpPost]
+        public IActionResult SaveAddProduct(Product product)
+        {
+            if (_productRepository.Create(product))
+            {
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
     }
 }
