@@ -156,5 +156,20 @@ namespace Client_Server.Controllers
             }
 
         }
+
+        [HttpGet]
+        public IActionResult GetTop3BestSaler()
+        {
+            try
+            {
+                var topBestSaler = _ctx.Products.OrderByDescending(p => p.SaleRate).Take(3).ToList();
+                if (topBestSaler.Count == 0) return NotFound("Can not get top 3 best saler");
+                else return Ok(topBestSaler);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }
