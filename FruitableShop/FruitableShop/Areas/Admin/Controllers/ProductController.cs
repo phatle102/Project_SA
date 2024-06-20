@@ -50,5 +50,31 @@ namespace FruitableShop.Areas.Admin.Controllers
             }
             return View();
         }
+        [HttpPost]
+        public IActionResult UpdateProduct(Product product)
+        {
+            if (_productRepository.Update(product))
+            {
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+        public IActionResult DeleteProduct(int id)
+        {
+            Product product = _productRepository.FindById(id);
+            if (product != null)
+            {
+                return View(product);
+            }
+            return View();
+        }
+        public IActionResult ConfirmDelete(Product product)
+        {
+            if (_productRepository.Delete(product.Id))
+            {
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
     }
 }
