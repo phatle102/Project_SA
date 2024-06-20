@@ -40,5 +40,15 @@ namespace FruitableShop.Areas.Admin.Controllers
             }
             return View();
         }
+        [HttpGet]
+        public IActionResult EditProduct(int id)
+        {
+            Product product = _productRepository.FindById(id);
+            if (product != null)
+            {
+                return View(product);
+            }
+            return View();
+        }
     }
 }
