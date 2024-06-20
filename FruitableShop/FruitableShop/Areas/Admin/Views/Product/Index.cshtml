@@ -8,8 +8,8 @@
 
 <div style="display:flex; justify-content: space-between">
     <a asp-action="AddProduct">Create New</a>
-    <form>
-        <input placeholder="Search..."/>
+    <form asp-action="SearchProduct" method="get">
+        <input type="text" name="keyword" placeholder="Search..." />
         <button><i class="fa-solid fa-magnifying-glass"></i>search</button>
     </form>
 </div>
