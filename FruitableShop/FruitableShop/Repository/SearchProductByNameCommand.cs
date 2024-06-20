@@ -2,6 +2,7 @@
 
 namespace FruitableShop.Repository
 {
+    // ========== Command ========== //
     public class SearchProductByNameCommand : ISearchCommand
     {
         private readonly IRepository<Product> _productRepository;
