@@ -94,7 +94,7 @@ namespace Client_Server.Controllers
                 users.Email = model.Email;
                 users.Address = model.Address;
                 users.Phone = model.Phone;
-                users.Password = model.Phone;
+                users.Password = model.Password;
                 _ctx.SaveChanges();
                 return Ok("User details updated.");
             }
