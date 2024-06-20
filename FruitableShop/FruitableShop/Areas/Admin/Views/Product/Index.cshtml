@@ -38,13 +38,15 @@
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Img)
+                <img 
+                    style="width: 100px; height: auto; border-radius: 4px;"
+                  src="/img/@Html.DisplayFor(modelItem => item.Img)" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Price)
+                $@Html.DisplayFor(modelItem => item.Price)
             </td>
             <td>
                 <a asp-action="EditProduct" asp-route-id="@item.Id">Edit</a> |
