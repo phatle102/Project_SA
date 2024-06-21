@@ -51,6 +51,42 @@ namespace Client_Server.Controllers
             }
         }
 
+        [HttpGet]
+        public IActionResult SearchByEmail(string keyword)
+        {
+            try
+            {
+                var result = _ctx.Users.Where(x => x.Email.Contains(keyword)).ToList();
+                if (result == null)
+                {
+                    return NotFound($"Cant not found product with name {keyword}");
+                }
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet]
+        public IActionResult SearchByPhone(string keyword)
+        {
+            try
+            {
+                var result = _ctx.Users.Where(x => x.Phone.Contains(keyword)).ToList();
+                if (result == null)
+                {
+                    return NotFound($"Cant not found product with name {keyword}");
+                }
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         [HttpPost]
         public IActionResult Post(User users)
         {
