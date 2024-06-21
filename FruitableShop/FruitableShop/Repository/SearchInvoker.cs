@@ -21,7 +21,7 @@ namespace FruitableShop.Repository
         {
             if (_commands.ContainsKey(commandName))
             {
-                return _commands[commandName].Execute(keyword);
+                return _commands[commandName].SearchByProductName(keyword);
             }
 
             return new List<Product>();

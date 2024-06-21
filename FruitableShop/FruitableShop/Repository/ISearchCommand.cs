@@ -5,6 +5,6 @@ namespace FruitableShop.Repository
     // ========== Command ========== //
     public interface ISearchCommand
     {
-        List<Product> Execute(string keyword);
+        List<Product> SearchByProductName(string keyword);
     }
 }
