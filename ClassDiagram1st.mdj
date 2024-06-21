@@ -1042,7 +1042,7 @@
 											"top": -264,
 											"width": 194.314453125,
 											"height": 13,
-											"text": "(from CommandPattern_final)"
+											"text": "(from FacadePattern_1stdetail)"
 										},
 										{
 											"_type": "LabelView",
@@ -2743,7 +2743,7 @@
 											"top": 1190,
 											"width": 194.314453125,
 											"height": 13,
-											"text": "(from CommandPattern_final)"
+											"text": "(from FacadePattern_1stdetail)"
 										},
 										{
 											"_type": "LabelView",
@@ -5446,7 +5446,7 @@
 											"top": -82,
 											"width": 194.314453125,
 											"height": 13,
-											"text": "(from CommandPattern_final)"
+											"text": "(from FacadePattern_1stdetail)"
 										},
 										{
 											"_type": "LabelView",
@@ -7315,7 +7315,7 @@
 											"top": -560,
 											"width": 181.365234375,
 											"height": 13,
-											"text": "(from CommandPattern_final)"
+											"text": "(from FacadePattern_1stdetail)"
 										},
 										{
 											"_type": "LabelView",
@@ -10410,113 +10410,6 @@
 							"templateParameterCompartment": {
 								"$ref": "AAAAAAGQOTGguqVpGzM="
 							}
-						},
-						{
-							"_type": "UMLPackageView",
-							"_id": "AAAAAAGQOTG8LKWH6rc=",
-							"_parent": {
-								"$ref": "AAAAAAGQOSsVSJ/Gv/0="
-							},
-							"model": {
-								"$ref": "AAAAAAGQOTG8K6WFVFg="
-							},
-							"subViews": [
-								{
-									"_type": "UMLNameCompartmentView",
-									"_id": "AAAAAAGQOTG8LKWIYbo=",
-									"_parent": {
-										"$ref": "AAAAAAGQOTG8LKWH6rc="
-									},
-									"model": {
-										"$ref": "AAAAAAGQOTG8K6WFVFg="
-									},
-									"subViews": [
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGQOTG8LKWJl2I=",
-											"_parent": {
-												"$ref": "AAAAAAGQOTG8LKWIYbo="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": -16,
-											"top": -16,
-											"height": 13
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGQOTG8LKWK/vU=",
-											"_parent": {
-												"$ref": "AAAAAAGQOTG8LKWIYbo="
-											},
-											"font": "Arial;13;1",
-											"left": 53,
-											"top": 566,
-											"width": 455,
-											"height": 13,
-											"text": "FacadePattern_1stdetail",
-											"wordWrap": true
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGQOTG8LKWLTxk=",
-											"_parent": {
-												"$ref": "AAAAAAGQOTG8LKWIYbo="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": -16,
-											"top": -16,
-											"width": 80.9072265625,
-											"height": 13,
-											"text": "(from Model1)"
-										},
-										{
-											"_type": "LabelView",
-											"_id": "AAAAAAGQOTG8LKWMAjw=",
-											"_parent": {
-												"$ref": "AAAAAAGQOTG8LKWIYbo="
-											},
-											"visible": false,
-											"font": "Arial;13;0",
-											"left": -16,
-											"top": -16,
-											"horizontalAlignment": 1,
-											"wordWrap": true
-										}
-									],
-									"font": "Arial;13;0",
-									"left": 48,
-									"top": 559,
-									"width": 465,
-									"height": 25,
-									"stereotypeLabel": {
-										"$ref": "AAAAAAGQOTG8LKWJl2I="
-									},
-									"nameLabel": {
-										"$ref": "AAAAAAGQOTG8LKWK/vU="
-									},
-									"namespaceLabel": {
-										"$ref": "AAAAAAGQOTG8LKWLTxk="
-									},
-									"propertyLabel": {
-										"$ref": "AAAAAAGQOTG8LKWMAjw="
-									}
-								}
-							],
-							"containedViews": [],
-							"font": "Arial;13;0",
-							"showShadow": false,
-							"containerChangeable": true,
-							"left": 48,
-							"top": 544,
-							"width": 159.5634765625,
-							"height": 25,
-							"autoResize": true,
-							"nameCompartment": {
-								"$ref": "AAAAAAGQOTG8LKWIYbo="
-							},
-							"wordWrap": true
 						},
 						{
 							"_type": "UMLPackageView",
