@@ -18,7 +18,7 @@ namespace FruitableShop.Areas.Admin.Controllers
             _productRepository = productRepository;
             _productFacade = productFacade;
             _searchInvoker = new SearchInvoker();
-            _searchInvoker.RegisterCommand("SearchByName", new SearchProductByNameCommand(_productRepository));
+            _searchInvoker.RegisterCommand("SearchByProductName", new SearchCommand(_productRepository));
         }
         public IActionResult Index()
         {
@@ -30,7 +30,7 @@ namespace FruitableShop.Areas.Admin.Controllers
         public ActionResult SearchProduct(string keyword)
         {
             /*List<Product> productList = _productSearchFacade.SearchProducts(keyword);*/
-            List<Product> productList = _searchInvoker.ExecuteCommand("SearchByName", keyword);
+            List<Product> productList = _searchInvoker.ExecuteCommand("SearchByProductName", keyword);
             return View("Index", productList);
         }
 
