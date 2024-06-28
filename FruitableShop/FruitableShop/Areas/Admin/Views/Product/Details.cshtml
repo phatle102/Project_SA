@@ -10,17 +10,18 @@
     <h4>Product</h4>
     <hr />
     <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Img)
+        </dt>
+        <dd class="col-sm-10" style="display:flex; gap: 10px; align-items:center">
+            <img src="/img/@Html.DisplayFor(model => model.Img)" style="width: 100px; height:auto;" />
+            @Html.DisplayFor(model => model.Img)
+        </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Name)
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Img)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Img)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Description)
